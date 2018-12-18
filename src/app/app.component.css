@@ -1,0 +1,161 @@
+h1, h3, h5 {
+  margin: 0 0 15px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.mainmenu-area {
+  background: transparent;
+}
+
+.home-area {
+  width: 100%;
+  padding-top: 15vh;
+  color: #ffffff;
+  margin-bottom: 100px;
+  background-image: linear-gradient(to bottom right, #5987b6, #96c5f7);
+}
+
+.bttn-white {
+  color: #4684a9;
+  padding: 13px 50px;
+  background-color: #ffffff;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border-radius: 100px;
+  left: 2px;
+  top: 2px;
+}
+
+.portrait{
+  background: url("../assets/images/samsungS4-portrait.png") no-repeat;
+}
+
+.portrait2{
+  background: url("../assets/images/samsungS4-portrait.png") no-repeat;
+  width: auto;
+  height: auto;
+  max-width: 75%;
+}
+
+.mobile-status-bar {
+
+  background: url("../assets/images/samsungS4-portrait-bar-light.png") no-repeat;
+  width: 360px;
+  height: 24px;
+  margin-left: 23px;
+
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#img1 {
+  width: auto;
+  height: auto;
+  max-width: 80%;
+}
+
+#img2 {
+  width: auto;
+  height: auto;
+  max-width: 75%;
+  position: relative;
+}
+
+#img21 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  max-width: 270px;
+  margin-left: 68px;
+  margin-top: 57px;
+}
+
+#img3 {
+  width: auto;
+  height: auto;
+  max-width: 65%;
+}
+
+.page-title .title {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #8790af;
+  font-weight: 600;
+}
+
+.text-center.page-title .title:before,
+.page-title .title:after {
+  content: '';
+  width: 50px;
+  height: 1px;
+  display: inline-block;
+  background-color: #e1e1e1;
+  margin: 0 15px;
+  -webkit-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
+.section-padding-top {
+  padding-top: 120px;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.story-area {
+  background-size: auto 100%;
+  margin-top: 90px;
+}
+
+.feature-area {
+  width: 100%;
+  padding-top: 26vh;
+  margin-bottom: 100px;
+}
+
+.feature-box {
+  position: relative;
+  padding-left: 100px;
+  text-align: left;
+}
+
+.gallery {
+  color: #ffffff;
+  background-image: linear-gradient(to right, #5987b6, #76a6d8, #5987b6);
+}
+
+.pictures .item {
+  margin: 58px 17px 70px 15px;
+  overflow: hidden;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.imgSS {
+  max-width: 60%;
+  width: auto;
+  height: auto;
+}
